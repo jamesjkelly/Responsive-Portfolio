@@ -192,7 +192,7 @@ h3,
 
 .auth-image {
   float: left;
-  width: 200px;
+ /* width: 200px;*/
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
@@ -236,4 +236,18 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+
+
+@media (max-width:  1000px) {
+  .auth-image {
+    clear:both;
+    width:100%;
+  }
+
+p
+{clear:both;}
+
+
 }
