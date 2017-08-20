@@ -256,6 +256,18 @@ p
   margin: 20px 0 25px;
   overflow: auto;
 }
+
+
+.sidebar {
+ width: 100%; 
+ clear:both;
+  background: #fff;
+  border: 1px solid #ddd;
+    max-width: 730px;
+
+ }
+
+
 }
 
 
@@ -277,9 +289,10 @@ p
  clear:both;
   background: #fff;
   border: 1px solid #ddd;
-    max-width: 780px;
+    max-width: 730px;
 
  }
+
  nav {
   float: left;
   margin-top: 25px;
