@@ -259,10 +259,17 @@ p
 }
 
 
-@media (max-width:  640px) {
+@media (max-width:  780px) {
 
   #logo {width:100%;}
  
+
+.container, .main-section {
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+  clear: both;
+}
 
 
 .sidebar {
@@ -270,17 +277,39 @@ p
  clear:both;
   background: #fff;
   border: 1px solid #ddd;
-    max-width: 690px;
+    max-width: 780px;
 
  }
  nav {
   float: left;
-  align:center;
   margin-top: 25px;
 }
 nav a{
-  width:180px;
+  width:220px;
 }
 
 }
+
+
+@media (max-width:  640px) {
+
+.container, .main-section {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  clear: both;
 }
+
+nav a{
+  width:140px;
+}
+
+.work {
+  position: relative;
+  float: left;
+  width: 450px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+}
+
